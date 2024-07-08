@@ -14,7 +14,7 @@ app.set('view engine', 'ejs') // định nghĩa thư viện ejs
 
 //Khai báo route
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello World! & nodemon')
 })
 
 app.get('/abc', (req, res) => {
