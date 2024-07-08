@@ -14,7 +14,7 @@ configViewEngine(app);
 
 
 //Khai báo route
-app.use('/test', webRoutes)
+app.use('/', webRoutes)
 
 
 app.listen(port, hostname, () => {
