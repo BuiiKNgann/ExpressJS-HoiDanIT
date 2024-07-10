@@ -1,8 +1,8 @@
 const connection = require('../config/database');
 
-const getHomePage = (req, res) => {
-    let [results, fields] = connection.query('select * from Users')
-    console.log("check rows: ", results);
+const getHomePage = async (req, res) => {
+    // let [results, fields] = await connection.query('select * from Users')
+    // console.log("check rows: ", results);
     return res.render('home.ejs')
 
 }
